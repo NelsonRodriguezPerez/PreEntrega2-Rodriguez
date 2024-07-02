@@ -1,0 +1,198 @@
+@media screen and (max-width: 1500px) {
+ /* INDEX */
+ .hero-img {
+  width: 1300px;
+ }
+ .izquierda{
+  width: 550px;
+ }
+ /* TRADING */
+ .hoja-img{
+  width: 1300px;
+ }
+ .alternativa-img{
+    width: 550px;
+ }
+
+}
+@media screen and (max-width: 1300px) {
+ .index-header {
+  gap: 50px;
+ }
+ .hero-img {
+  width: 1024px;
+ }
+ .izquierda{
+  width: 450px;
+ }
+ .inverstment-p {
+  font-size: 22px;
+ }
+ .advice-p {
+  font-size: 24px;
+ }
+ .advice-iframe{
+  width: 500px;
+  height: 300px;
+ }
+ /* TRADING */
+ .hoja-img{
+   width: 1024px;
+  }
+   .alternativa-img{
+    width: 375px;
+    height: 300px;
+   }
+   .alternativa-p {
+    font-size: 22px;
+    padding: 0px 20px;
+   }
+   .trading-h3{
+    font-size: 24px;
+   }
+   .trading-p {
+    font-size: 24px;
+   }
+   .trading-img{
+      width: 1024px;
+   }
+   .trading-article{
+    image-resolution: 100px;
+   }
+
+}
+@media screen and (max-width: 1024px) {
+ .hero-img {
+  width: 768px;
+ }
+ .advice-p {
+  font-size: 22px;
+ }
+ .advice-iframe{
+  width: 425px;
+  height: 250px;
+ }
+ /* TRADING */
+ .hoja-img {
+   width: 768px;
+}
+.trading-img{
+   width: 768px;
+}
+}
+@media screen and (max-width: 883px) {
+ .ariel{
+  display: none;
+ }
+}
+@media screen and (max-width: 768px) {
+   /* INDEX */
+   .index-header{
+      display: none;
+   }
+   .menu-hamburguesa{
+      display: block;
+   }
+   .hero-h1 {
+      font-size: 28px;
+  }
+   .hero-img {
+      width: 425px;
+   }
+   .hero-h2 {
+      font-size: 20px;
+      padding: 35px 35px;
+  }
+   .inverstment-article {
+    grid-template-columns: 1fr;
+   }
+   .izquierda{
+    width: 375px;
+    margin-bottom: 50px;
+   }
+   .advice-article {
+    grid-template-columns: 1fr;
+   }
+   .advice-iframe{
+    width: 425px;
+    height: 250px;
+    margin-top: 50px;
+   }
+   /* TRADING */
+   .hoja-img {
+      width: 425px;
+   }
+   .alternativa-article {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 1fr;
+  }
+   .alternativa-img{
+      display: block;
+      align-items: center;
+      margin: 50px auto 0px;
+      justify-content: center;
+  }
+   .trading-img{
+      width: 425px;
+   }
+   .trading-article {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+   .hero-img {
+      width: 375px;
+   }
+   .advice-iframe{
+      width: 375px;
+      height: 250px;
+   }
+   /* TRADING */
+    .hoja-img {
+      width: 375px;
+   }
+   .alternativa-img{
+    width: 375px;
+   }
+   .trading-img{
+      width: 375px;
+   }
+}
+@media screen and (max-width: 375px) {
+   .hero-img {
+      width: 320px;
+   }
+   .izquierda{
+      width: 320px;
+     }
+     .inverstment-p {
+      padding: 0px 25px;
+   }
+     .advice-p {
+      padding: 0px 25px;
+   }
+     .advice-iframe{
+      width: 320px;
+     }
+     .bottom{
+      gap: 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+   .hoja-img {
+      width: 320px;
+   }
+   .alternativa-img{
+      width: 320px;
+     }
+   .trading-img{
+      width: 320px;
+   }
+   
+.trading-article {
+   padding: 50px 20px;
+}
+}

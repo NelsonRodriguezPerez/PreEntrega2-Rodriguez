@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: homenaje;
+    background-color: whitesmoke;
+}
+
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+/* INDEX */
+/* Header */
+.index-header {
+    gap: 250px;
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #583121;
+}
+
+.menu-hamburguesa{
+    display: none;
+}
+
+.index-header-nav{
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.ariel {
+    margin: 0px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.index-ul-nav{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.index-ul-li-a {
+    color: white;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+}
+
+.index-ul-li-a:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+/* Main */
+.hero {
+    display: grid;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+.hero-h1 {
+    color: black;
+    font-size: 38px;
+    margin: 50px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-img {
+    width: 1500px;
+    display: block;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(90%);
+}
+
+.hero-h2 {
+    font-size: 24px;
+    padding: 35px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inverstment {
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.inverstment-h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.inverstment-article {
+    display: grid;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+}
+
+.izquierda {
+    width: 650px;
+    display: block;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.inverstment-p {
+    font-size: 28px;
+    text-align: left;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+.advice {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.advice-h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.advice-article {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+}
+
+.advice-p {
+    font-size: 22px;
+    text-align: start;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+.advice-iframe{
+    width: 560px;
+    height: 315px;
+    margin: 0px auto;
+}
+
+/* Footer */
+.footer {
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.bottom{
+    gap: 50px;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.img-width {
+    width: 50px;
+}
+
+.copyright {
+    padding: 20px 0px;
+}
+
+.copyright-p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* SECCIONES */
+/* SECCIÓN TRADING */
+.hoja-2 {
+    font-weight: bold;
+    font-size: 38px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.hoja-img {
+    width: 1500px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(90%);
+}
+
+.alternativa{
+    background-color: whitesmoke;
+}
+
+.alternativa-h2{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.alternativa-article {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.alternativa-img{ 
+    width: 900px; 
+    height: 350px;
+}
+
+.alternativa-p {
+    margin: 0px;
+    font-size: 28px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.trading {
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.trading-h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.trading-img{
+    margin-bottom: 50px;
+}
+
+.trading-article {
+    gap: 50px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.trading-h3 {
+    font-size: 28px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.trading-p {
+    font-size: 22px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+/* SECCIÓN CONTACTO */
+.hoja-3 {
+    font-size: 26px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.section-iframe {
+    background-color: black;
+}
+
+.hoja-4 {
+    color: white;
+    font-size: 30px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.iframe {
+    width: 1000px;
+    display: flex;
+    padding: 50px 0px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoja-5 {
+    font-size: 30px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    margin: 50px auto 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fieldset-formulario {
+    width: 50%;
+}
+
+.div-inputs {
+    display: flex;
+    padding: 25px 0px;
+    justify-content: space-evenly;
+}
+
+.consulta {
+    text-align: center;
+}
+
+.textarea {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.div-botones {
+    gap: 50px;
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.botones {
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+/* SECTION NOSOTROS */
+.nosotros-h2{
+    font-size: 26px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.nosotros-article {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.nosotros-img{ 
+    width: 1000px; 
+    height: 400px;
+}
+
+.nosotros-p {
+    margin: 0;
+    font-size: 28px;
+    max-width: 600px;
+    text-align: start;
+}
+
+.section-2{
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.section-article {
+    display: flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-2-img{
+    width: 400px;
+}
+
+.section-p {
+    margin: 0px;
+    font-size: 28px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.section-3 {
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.alternativa-img{
+    width: auto; 
+}
+
+.section3-p {
+    margin: 0;
+    font-size: 28px;
+    max-width: 600px;
+    text-align: start;
+}
+
+/*analisis*/
+
+.subtitulo {  
+    font-size: 24px;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.analisis {
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.analisis-h2 {
+    font-size: 30px;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.analisis-article {
+    display: flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.analisis-p {
+    margin: 0px;
+    font-size: 28px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.analisis-2{
+    background-color: whitesmoke;
+}
+.analisis2-h2{
+    font-size: 24px;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.analisis2-article {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.analisis2-p {
+    margin: 0px;
+    font-size: 28px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.analisis2-img{ 
+    width: 1000px; 
+    height: 400px;
+}
+
+.analisis-article-img{
+    width: 500px;
+}
+
+.descisiones {
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.decisiones-h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 100px 50px 100px;
+}
+
+.decisiones-img{
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.decisiones-article {
+    gap: 50px;
+    display: grid;
+    padding: 0px 50px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.decisiones-h3 {
+    font-size: 28px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.decisiones-p {
+    font-size: 22px;
+    padding: 25px 0px;
+    text-align: center;
+}
